@@ -33,7 +33,7 @@
   </dependencies>
   <distributionManagement>
       <snapshotRepository>
-        <id>crm-project</id>
+        <id>nexus</id>
         <name>devops markonda</name>
 		<url>http://3.110.162.22:8081/repository/nexustest/</url>
       </snapshotRepository>
