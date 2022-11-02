@@ -38,7 +38,7 @@
 		<url>http://3.88.106.179:8081/devopsmarkonda/repository/crm-projectsnapshot/</url>
       </snapshotRepository>
 	  <repository>
-        <id>crm-project</id>
+        <id>nexus</id>
         <name>devops markonda</name>
 		<url>http://3.110.162.22:8081/repository/nexustest/</url>
       </repository>
