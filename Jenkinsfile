@@ -8,7 +8,7 @@ pipeline
         stage('continuousdownload'){
                 steps
                 {
-                    git branch: 'dev', url: 'https://github.com/lakshmipath/mavenproject.git'
+                    git branch: 'main', url: 'https://github.com/lakshmipath/mavenproject.git'
                     
                 }
                 
@@ -25,35 +25,5 @@ pipeline
                 
             
         }
-        /*stage('continuousdeploy'){
-                steps
-                {
-                    sshagent(['Connection_with_private_key']) {
-                        
-                    sh "scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/declarative/target/mavenproject.war ec2-user@65.2.168.182:/root/opt/apache-tomcat-9.0.65/webapps/abc.war"
-    
-                }
-                    
-                
-                }
-                
-            
-        }*/
-         
-        
-        
-        
-        
-        
-        
-        
     }
-    
-    
-    
-    
-    
-    
-    
-    
 }
